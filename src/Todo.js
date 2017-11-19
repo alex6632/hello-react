@@ -24,7 +24,6 @@ class Todo extends Component<TodoProps, TodoState> {
   constructor(props: TodoProps) {
     super(props);
     this.onButtonAddClick = this.onButtonAddClick.bind(this);
-    this.onLiClick = this.onLiClick.bind(this);
     this.state = {
       data: [],
       completed: false,

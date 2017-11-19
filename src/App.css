@@ -26,6 +26,34 @@
   text-decoration: line-through;
 }
 
+input {
+  margin: 20px;
+  height: 40px;
+  padding: 10px;
+  background-color: #FFF;
+  border-bottom: solid 1px #000;
+}
+
+button {
+  height: 50px;
+  padding-top: 15px;
+  margin-right: 20px;
+}
+
+.main-footer {
+  height: 50px;
+  background-color: #FFF;
+}
+
+.selected {
+  background-color: #FFE163;
+}
+
+.filter-button {
+  padding: 2px 10px;
+  border: 1px solid #ccc;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
