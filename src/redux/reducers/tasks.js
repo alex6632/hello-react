@@ -1,12 +1,12 @@
 const initialState = [
-  { id: 1, label: "Learn Javascript", complete: true },
-  { id: 2, label: "Learn ES6", complete: true },
-  { id: 3, label: "Learn React", complete: false },
-  { id: 4, label: "Learn React Native", complete: false },
-  { id: 5, label: "Learn Nodejs", complete: false },
-  { id: 6, label: "Learn by doing", complete: false },
-  { id: 7, label: "Learn to teach", complete: false },
-  { id: 8, label: "Teach to learn", complete: false } ];
+  { id: 0, label: "Learn Javascript", complete: true },
+  { id: 1, label: "Learn ES6", complete: true },
+  { id: 2, label: "Learn React", complete: false },
+  { id: 3, label: "Learn React Native", complete: false },
+  { id: 4, label: "Learn Nodejs", complete: false },
+  { id: 5, label: "Learn by doing", complete: false },
+  { id: 6, label: "Learn to teach", complete: false },
+  { id: 7, label: "Teach to learn", complete: false } ];
 
 
 function tasks(state = initialState, action) {

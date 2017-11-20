@@ -8,7 +8,7 @@ const TaskList = props => {
     return (
       <TaskItem
         label={item.label}
-        visited={item.complete}
+        complete={item.complete}
         key={item.id}
         onPress={props.onSelectItem.bind(this, index)}
       />
